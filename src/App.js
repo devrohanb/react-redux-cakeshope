@@ -4,7 +4,9 @@ import "./App.css";
 import CakeContainer from "./components/CakeContainer";
 import CandyContainer from "./components/CandyContainer";
 import HooksCakeContainer from "./components/HooksCakeContainer";
+import HooksCandyContainer from "./components/HooksCandyContainer";
 import IceCreamContainer from "./components/IceCreamContainer";
+import HooksIceCreamContainer from "./components/HooksIceCreamContainer";
 import store from "./redux/store";
 
 function App() {
@@ -12,8 +14,8 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <HooksCakeContainer />
-        <IceCreamContainer />
-        <CandyContainer />
+        <HooksIceCreamContainer />
+        <HooksCandyContainer />
       </div>
     </Provider>
   );
