@@ -11,6 +11,8 @@
     "react-redux": "^7.2.2",
     "react-scripts": "^2.0.5",
     "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "3.0.6",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -36,5 +38,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrohanb/react-redux-cakeshope.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devrohanb/react-redux-cakeshope/issues"
+  },
+  "homepage": "https://github.com/devrohanb/react-redux-cakeshope#readme"
 }
